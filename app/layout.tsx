@@ -5,7 +5,7 @@ interface props {
   children: React.ReactNode;
 }
 
-const layout = ({ children }: props) => {
+const RootLayout = ({ children }: props) => {
   useEffect(() => {
     const comment = document.createComment(
       `A page so still, a web so wide,
@@ -45,4 +45,4 @@ The secret waits where echoes fall.`
   );
 };
 
-export default layout;
+export default RootLayout;

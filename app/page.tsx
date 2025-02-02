@@ -4,8 +4,12 @@ import { useEffect } from "react";
 const Page = () => {
   useEffect(() => {
     console.log(
-      "%cSilence speaks where words fail.",
-      " font-weight: regular; font-size: 14px;"
+      "f1nD 5 w0rd5" +
+        "%cS1L3nc5e/935u238hpn9tuq2g3cbp2o*Sp3Ak5))_h83h52935b2p3529u48y23" +
+        "When)(H125opb12biw)(H592p38n5p3298b32(*H#*w0rdS_/" +
+        "g8t72y5ghb9234n5p2o34n598b35b09y832y52948h2b3g2q35p29Fail" +
+        "o2384y5p983h5b234g8p329h5982p34t0h2n59342b5o39u4t9285b349y8234h",
+      "font-weight: regular; font-size: 14px;"
     );
   }, []);
 
